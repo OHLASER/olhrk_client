@@ -14,6 +14,8 @@ goto :EOF
 
 :do_copy_file
 set elm=%1
+pushd %module_dir%
+
 for /f "delims=" %%b in (%search_folders_data%) do (
 	if exist %%b%elm% (
 		echo will copy %%b%elm% to %target_dir%
