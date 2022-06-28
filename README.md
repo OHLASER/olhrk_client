@@ -1,4 +1,4 @@
-# olhrk_client
+# HARUKA外部操作CLI
 HARUKAが動作しているWindowsで実行できるC#実装のコンソールプログラムです。コマンド引数を利用して、HARUKAの状態取得、加工データの転送などが行えます。当該プログラムの利用方法は、IISを利用しないWebサーバを構築する場合に使用します。
 ※このリポジトリ単体をクローンしても使用できません。[olexttool](https://github.com/OHLASER/olexttool) からサブモジュールとして本リポジトリを取得してください。
 
